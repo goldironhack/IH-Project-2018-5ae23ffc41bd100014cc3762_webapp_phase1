@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NYU</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body> 
+
+    <div class="container-fluid">    
+        <h2>NYU!!</h2>
+        <div class="row content">
+            <div class="col-sm-12 col-md-3 col-lg-2 sidenav">
+                <button id = "getDistricts"> Districts Separation </button>
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-10"> 
+            <div id="mapContainer"></div>
+            </div>
+         </div>
+    </div>
+        
+    <!-- JQuery -->
+    <script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+    <script async defer
+	 	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwWYDB9v1MopiTtPpUXMDaCwAlOQbtn3c&callback=initMap">
+	</script>
+	
+	<!-- AIzaSyAwWYDB9v1MopiTtPpUXMDaCwAlOQbtn3c -->
+</body>
+</html>

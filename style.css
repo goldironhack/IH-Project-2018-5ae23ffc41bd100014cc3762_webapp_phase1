@@ -1,0 +1,39 @@
+
+#mapContainer{
+    height: 100%;
+    width : 100%;
+}
+
+.row.content {
+    height: 500px;
+}
+
+.sidenav {
+  background-color: #f1f1f1;
+  height : 100%;
+}
+
+#getDistricts{
+    margin-top:20px;
+}
+
+
+
+/* Responsive for small screens */
+
+@media screen and (max-width: 767px) { 
+ 
+    .sidenav {
+        height: 100px;
+        background-color: #f1f1f1;
+    }
+    
+    .row.content {
+        height: 100px;
+    }
+    
+    #mapContainer{
+        height :500px;
+        width : 100%;
+    }
+}
